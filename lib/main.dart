@@ -1,6 +1,5 @@
 import 'package:expense_tracker/widgets/expenses.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 final kColorScheme = ColorScheme.fromSeed(
   seedColor: const Color.fromARGB(255, 40, 48, 68),
@@ -37,9 +36,14 @@ void main() {
         color: kColorScheme.secondaryContainer,
         margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 2),
       ),
+      floatingActionButtonTheme: FloatingActionButtonThemeData(
+        backgroundColor: kColorScheme.primaryContainer,
+        foregroundColor: kColorScheme.onSecondaryContainer
+      ),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-            backgroundColor: kColorScheme.primaryContainer),
+            backgroundColor: kColorScheme.primaryContainer,
+        ),
       ),
       textTheme: ThemeData().textTheme.copyWith(
             titleLarge: TextStyle(
