@@ -1,16 +1,27 @@
-# expense_tracker
+# assignment 1 - expense tracker app
 
-A new Flutter project.
+This app is designed to make it as easy as possible for users to keep track of their finances.
+Here, the user has the possibility to enter his or her expenses and to view statistics and analyses
+generated on the basis of this data.
 
-## Getting Started
+## Additional Feature
 
-This project is a starting point for a Flutter application.
+The user has the option of sharing the cost of an expense with other persons.
 
-A few resources to get you started if this is your first Flutter project:
+### User story
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. User taps on the plus floating action button -> new expense form opens
+2. User enters a amount in the amount text field
+3. User taps on the left arrow icon button -> split form body expands -> PersonSplitListTiles are now visible
+4. User taps on PersonSplitListTiles to select the person as the funder
+5. User taps on the checkbox of a PersonSplitListTile to select/ unselect the corresponding person as a borrower
+6. User fills out all split unrelated new expense form fields
+7. User taps on the save button -> new expense form closes
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Documentation
+
+#### Wireframe
+![SplitExpenseCostForm.png](documentation/SplitExpenseCostForm.png)
+
+#### Class diagram
+[splitExpenseCostClassDiagram.pdf](documentation/splitExpenseCostClassDiagram.pdf)
