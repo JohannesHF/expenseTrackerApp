@@ -1,4 +1,4 @@
-# assignment 1 - expense tracker app
+# Assignment 1 - expense tracker app
 
 This app is designed to make it as easy as possible for users to keep track of their finances.
 Here, the user has the possibility to enter his or her expenses and to view statistics and analyses
@@ -19,9 +19,10 @@ The user has the option of sharing the cost of an expense with other persons.
 7. User taps on the save button -> new expense form closes
 
 ### Documentation
+external documents for the documentation of assignment 1
 
-#### Wireframe
+**Class diagram** [splitExpenseCostClassDiagram.pdf](documentation/splitExpenseCostClassDiagram.pdf)
+
+**Wireframe**
+
 ![SplitExpenseCostForm.png](documentation/SplitExpenseCostForm.png)
-
-#### Class diagram
-[splitExpenseCostClassDiagram.pdf](documentation/splitExpenseCostClassDiagram.pdf)
