@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:uuid/uuid.dart';
 import 'package:intl/intl.dart';
 
+import 'person.dart';
+
 final formatter = DateFormat.yMd();
 const uuid = Uuid();
 
@@ -19,7 +21,9 @@ class Expense {
       {required this.title,
       required this.amount,
       required this.date,
-      required this.category})
+      required this.category,
+      required this.paidFrom,
+      required this.paidFor})
       : id = uuid.v4();
 
   final String id;
@@ -27,6 +31,8 @@ class Expense {
   final double amount;
   final DateTime date;
   final Category category;
+  final Person paidFrom;
+  final List<Person> paidFor;
 
   String get formattedDate => formatter.format(date);
 }

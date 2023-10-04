@@ -52,6 +52,11 @@ void main() {
               fontSize: 20,
             ),
           ),
+      iconTheme: ThemeData().iconTheme.copyWith(
+        color: kColorScheme
+            .primary
+            .withOpacity(0.7),
+      )
     ),
     themeMode: ThemeMode.light,
     home: const Expenses(),
